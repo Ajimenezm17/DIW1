@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #B3AFAC;    
+    width: 100%;
+
+}
+.top button{
+    justify-content: flex-start;
+}
+
+.cabecera{
+    display: flex;                /* Flexbox para poner los elementos en línea */
+    align-items: center;          /* Alinear verticalmente en el centro */
+    justify-content: space-between; /* Espacio entre elementos */
+    padding: 10px;
+
+}
+#imagenlogo{
+    width: 250px;
+}
+
+.imagen-megusta{
+   width: 50px;
+}
+.imagen-usuario{
+    width: 50px;
+ }
+ .imagen-bolso{
+    width: 50px;
+ }
+
+.menu ul a{
+    margin: 5px;
+    font-size: larger;
+}
+.container{
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline;
+}
+.container img{
+    width: 590px;
+    height: auto;
+}
