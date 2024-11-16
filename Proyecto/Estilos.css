@@ -12,30 +12,58 @@ a{
 header{
     background-color: #B3AFAC;    
     width: 100%;
+    
 
 }
-.top {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-
-.top button{
-    font-size: larger;
-    margin-top: 2rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-}
-
-
 .cabecera{
     display: flex;                /* Flexbox para poner los elementos en línea */
     align-items: center;          /* Alinear verticalmente en el centro */
     justify-content: space-between; /* Espacio entre elementos */
     padding: 10px;
+    
 
 }
+
+.menu{
+    font-size: 35px;
+}
+
+.menu ul{
+    margin-right: 40rem;
+}
+
+
+.menu ul a:hover{
+    background-color: grey;
+    color: goldenrod;
+    border-radius: 3%;
+    padding: 12px;
+    
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.iconos a{
+    margin: 2rem;
+    font-size: 30px;
+}
+.iconos img{
+    margin: 1%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
 #imagenlogo{
     width: 250px;
    margin: 25px;
@@ -56,6 +84,20 @@ header{
     margin: 5px;
     font-size: larger;
 }
+
+
+
+.top button{
+    font-size: larger;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 9px;
+    background-color: aqua;
+    border: none;
+    border-radius: 5%;
+}
+
 .Producto{
     justify-content: flex-start;
     align-items: flex-start;
@@ -63,16 +105,12 @@ header{
     margin: 25px;
 }
 
-
 .overlay-text{
     position: relative;
     margin-top: -50px;
     margin-left: 20px;
 }
-.overlay-text{
-    position: relative;
-    margin-top: -50px;
-}
+   
 
 .Producto img{
     width: 540px;
@@ -86,13 +124,22 @@ header{
 footer{
     display: flex;
     justify-content: space-between;
-    margin-top: 120px;  
-    margin-right: 50px;
-    margin-left: 50px;
+    padding-top: 50px;  
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    background-color: #B3AFAC;
 }
 
 .sobre-quimera{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-columns: auto;
+}
+
+
+.logo-pie img{
+    width: 200px;
+    height: auto;
+    border-radius: 7%;
 }
