@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+.cabecera {
+    background-color: #B3AFAC;
+    display: flex;                
+    align-items: center;         
+    justify-content: space-between; 
+    padding: 1rem;
+}
+
+.menu{
+    display: flex;
+    width: 60%;
+}
+
+.menu a{
+    margin-right: 2%;
+    
+
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #B3AFAC;
+    text-align: center;
+    padding: 1rem;
+}
