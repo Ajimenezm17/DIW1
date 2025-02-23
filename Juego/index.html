@@ -13,22 +13,28 @@
         <button id="rulesBtn">Normas</button>
         <button id="startBtn">Iniciar</button>
     </div>
+
     <div id="rules" style="display: none;">
-        <h2>Normas del Tetris</h2>
-        <p>El objetivo del juego es completar líneas horizontales de bloques. Cuando completas una línea, desaparece y ganas puntos. Controla las piezas con las teclas de flecha:</p>
+        <h2>Normas del Juego</h2>
         <ul>
+            <li>Normas del juego: </li>
+            <li> Usa las flechas para mover las piezas. </li>
+            <li> Completa líneas para ganar puntos. </li>
+            <li>El juego termina cuando la pantalla se llena.</li>
             <li>↑: Rotar la pieza</li>
             <li>←: Mover la pieza a la izquierda</li>
             <li>→: Mover la pieza a la derecha</li>
             <li>↓: Acelerar la caída de la pieza</li>
+
         </ul>
         <button id="backBtn">Volver</button>
     </div>
 
-    <div id="app">
-      <canvas></canvas>
+    <div id="app" style="display: none;">
+        <canvas id="tetrisCanvas"></canvas>
+        <strong>Puntuación: <span id="score">0</span></strong>
     </div>
-    <strong>Puntuacion <span></span></strong>
+
     <script type="module" src="main.js"></script>
   </body>
 </html>
