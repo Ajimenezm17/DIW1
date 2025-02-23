@@ -1,14 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div id="app">
-        <canvas></canvas>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Tetris</title>
+  </head>
+  <body>
+    <div id="inicio">
+        <h2>Bienvenido a Tetris</h2>
+        <p>Presiona "Normas" para ver las reglas o "Iniciar" para comenzar el juego</p>
+        <button id="rulesBtn">Normas</button>
+        <button id="startBtn">Iniciar</button>
     </div>
+
+
+    <div id="app">
+      <canvas></canvas>
+    </div>
+    <strong>Puntuacion <span></span></strong>
     <script type="module" src="main.js"></script>
-</body>
+  </body>
 </html>
