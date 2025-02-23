@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const rulesBtn = document.getElementById('rulesBtn');
   const backBtn = document.getElementById('backBtn');
   const startBtn = document.getElementById('startBtn');
-  const canvas = document.getElementById('tetrisCanvas'); // Asegúrate de usar getElementById
+  const canvas = document.getElementById('tetrisCanvas');
   const context = canvas.getContext('2d');
   const scoreDisplay = document.getElementById('score');
 
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   startBtn.addEventListener('click', () => {
       inicio.style.display = 'none';
       app.style.display = 'block';
-      startGame(); // Asegúrate de tener esta función definida
+      startGame(); 
   });
 });
 
