@@ -1,2 +1,27 @@
 Proyecto de juego para Diseño de Interfaces
 Voy a realizar un tetris sencillo.
+Directrices del trabajo:
+Crea un juego online que utilice los siguientes elementos:
+ Animaciones que incluyan como mínimo dos de las tres categorías de funciones
+que se indican a continuación:
+ setTimeout y clearTimeout.
+ setInterval y clearInterval.
+ requestAnimationFrame y cancelAnimationFrame.
+ Promesas de JavaScript, ya sea con “then” o “async/await”.
+ Componentes web de JavaScript. Basta con uno, aunque no tenga
+funcionalidad. El objetivo mínimo es que el HTML se genere a través del código
+JavaScript de los componentes.
+ Es posible emplear librerías externas que utilicen animaciones o componentes
+web como jQuery, React, Angular o Vue.js si las conoces.
+El juego debe constar de la siguiente estructura:
+ Una pantalla inicial con las instrucciones del juego. No hace falta extenderse en
+esta parte, pero se valorará que sea lo más interactivo posible. Por ejemplo, con
+menús con categorías, listados con pestañas o botones que muestran u ocultan
+texto con animaciones o efectos.
+ La pantalla principal del juego en la que se muestran varios elementos y el
+usuario interactúa entre ellos, ya sea mediante el teclado o ratón.
+ El juego tiene que mostrar algún mensaje cuando el usuario finaliza indicando si
+ha habido éxito o no, ya sea en la pantalla principal o en otra diferente.
+
+Logica principal sacara de: https://www.youtube.com/watch?v=pNiyz0sl1no
+Pero modificado para añadir todo lo que se indica.
