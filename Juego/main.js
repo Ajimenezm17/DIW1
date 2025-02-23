@@ -1,16 +1,26 @@
-class GameIntro extends HTMLElement {
-    constructor() {
-        super();
-        this.attachShadow({ mode: 'open' });
-        
-    }
-    connectedCallback() {
-        this.shadowRoot.querySelector('#startBtn').addEventListener('click', () => {
-            document.querySelector('game-intro').remove();
-            startGame();
-        });
-    }
-}
-customElements.define('game-intro', GameIntro);
+document.addEventListener('DOMContentLoaded', () => {
+  const inicio = document.getElementById('inicio');
+  const rules = document.getElementById('rules');
+  const app = document.getElementById('app');
+  const rulesBtn = document.getElementById('rulesBtn');
+  const backBtn = document.getElementById('backBtn');
+  const startBtn = document.getElementById('startBtn');
 
-document.body.prepend(document.createElement('game-intro'));
+  rulesBtn.addEventListener('click', () => {
+      inicio.style.display = 'none';
+      rules.style.display = 'block';
+      requestAnimationFrame(showRules);
+  });
+
+  backBtn.addEventListener('click', () => {
+      rules.style.display = 'none';
+      inicio.style.display = 'block';
+      requestAnimationFrame(showInicio);
+  });
+
+  startBtn.addEventListener('click', () => {
+      inicio.style.display = 'none';
+      app.style.display = 'block';
+      startGame();
+  });
+});
